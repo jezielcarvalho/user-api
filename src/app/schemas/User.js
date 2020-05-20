@@ -1,5 +1,7 @@
 import mongoose from 'mongoose';
-
+/**
+  CRIA O ESQUEMA DOS DADOS DA APLICAÇÃO
+ */
 const UserSchema = new mongoose.Schema(
   {
     name: {
